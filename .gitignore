@@ -1,0 +1,8 @@
+# Local Claude Code settings (machine-specific)
+.claude/settings.local.json
+
+# OS / editor artifacts
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://www.europea.sk/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://www.europea.sk/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.europea.sk/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.europea.sk/" />
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.europea.sk/en/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://www.europea.sk/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.europea.sk/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.europea.sk/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.europea.sk/sluzby/ev-nabijacie-stanice.html</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://www.europea.sk/sluzby/ev-nabijacie-stanice.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.europea.sk/en/services/ev-charging-stations.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.europea.sk/sluzby/ev-nabijacie-stanice.html" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.europea.sk/en/services/ev-charging-stations.html</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://www.europea.sk/sluzby/ev-nabijacie-stanice.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.europea.sk/en/services/ev-charging-stations.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.europea.sk/sluzby/ev-nabijacie-stanice.html" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.europea.sk/sluzby/ups-systemy.html</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://www.europea.sk/sluzby/ups-systemy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.europea.sk/en/services/ups-systems.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.europea.sk/sluzby/ups-systemy.html" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.europea.sk/en/services/ups-systems.html</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://www.europea.sk/sluzby/ups-systemy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.europea.sk/en/services/ups-systems.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.europea.sk/sluzby/ups-systemy.html" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.europea.sk/sluzby/laboratorna-technika.html</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://www.europea.sk/sluzby/laboratorna-technika.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.europea.sk/en/services/laboratory-equipment.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.europea.sk/sluzby/laboratorna-technika.html" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.europea.sk/en/services/laboratory-equipment.html</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://www.europea.sk/sluzby/laboratorna-technika.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.europea.sk/en/services/laboratory-equipment.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.europea.sk/sluzby/laboratorna-technika.html" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stránka nenájdená (404) | Europea</title>
+  <meta name="description" content="Požadovaná stránka neexistuje. Vráťte sa na hlavnú stránku Europea.">
+  <meta name="robots" content="noindex, follow">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    .error-page {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: linear-gradient(135deg, var(--navy) 0%, #1a1452 40%, var(--blue-dark) 100%);
+      padding: 32px 24px;
+    }
+    .error-page .logo {
+      height: 40px;
+      margin-bottom: 40px;
+    }
+    .error-code {
+      font-size: clamp(64px, 12vw, 120px);
+      font-weight: 800;
+      color: #fff;
+      line-height: 1;
+      margin: 0 0 16px;
+    }
+    .error-title {
+      font-size: clamp(20px, 3vw, 28px);
+      font-weight: 700;
+      color: #fff;
+      margin: 0 0 12px;
+    }
+    .error-subtitle {
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.75);
+      margin: 0 0 8px;
+    }
+    .error-subtitle-en {
+      font-size: 15px;
+      color: rgba(255, 255, 255, 0.55);
+      margin: 0 0 40px;
+    }
+    .error-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="error-page">
+    <div>
+      <a href="index.html" aria-label="Europea domov">
+        <img src="img/logo-overlay.svg" alt="Europea logo" class="logo">
+      </a>
+      <p class="error-code">404</p>
+      <h1 class="error-title">Stránka nenájdená</h1>
+      <p class="error-subtitle">Ospravedlňujeme sa, hľadaná stránka neexistuje alebo bola presunutá.</p>
+      <p class="error-subtitle-en">Sorry, the page you're looking for doesn't exist or has moved.</p>
+      <div class="error-actions">
+        <a href="index.html" class="btn btn-primary">Späť na hlavnú stránku</a>
+        <a href="en/index.html" class="btn btn-outline" style="border-color:#fff;color:#fff;">English homepage</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
