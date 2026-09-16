@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.europea.sk/sitemap.xml
+Sitemap: https://europea.sk/sitemap.xml
