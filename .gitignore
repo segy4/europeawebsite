@@ -6,3 +6,6 @@ Thumbs.db
 desktop.ini
 .DS_Store
 *.swp
+
+# Full-res source image; the site ships the .webp instead (10MB, kept local only)
+img/obrEuropeaONas.png
