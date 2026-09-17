@@ -1304,9 +1304,21 @@ section {
   border-top: 1px solid rgba(255, 255, 255, 0.12);
   padding-top: 24px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  gap: 12px 24px;
   font-size: 0.85rem;
+}
+
+/* The Slovak legal labels are ~500px wide, so copyright + links + e-shop will
+   not fit on one line at common widths. Rather than let the e-shop link wrap
+   unpredictably, the links take a row of their own below, sharing the same
+   left edge as the copyright above them. */
+.footer-legal {
+  order: 3;
+  flex-basis: 100%;
+  justify-content: flex-start;
 }
 
 .footer-bottom a {
@@ -1483,6 +1495,10 @@ section {
     gap: 8px;
     text-align: center;
   }
+
+  /* auto margin only makes sense on a row; in a column it shifts the link */
+  .footer-bottom > a { margin-left: 0; }
+  .footer-legal { justify-content: center; }
 }
 
 @media (max-width: 480px) {
@@ -2131,8 +2147,8 @@ section {
 .footer-legal {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 20px;
-  margin-top: 10px;
+  align-items: center;
+  gap: 8px 18px;
 }
 
 .footer-legal a { font-size: 0.86rem; opacity: 0.85; }
