@@ -373,13 +373,9 @@
 
           <!-- Google Maps -->
           <div class="map-container">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5172.337584292412!2d17.202484948774703!3d48.14977622766582!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c8f53f3688597%3A0x805c057ae22acee!2sEUROPEA%20group%20s.r.o.!5e0!3m2!1ssk!2ssk!4v1787687795031!5m2!1ssk!2ssk"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-              title="Map – Europea, Šípova 3/A, Bratislava">
-            </iframe>
+            <!-- Loaded only after consent; see js/consent.js -->
+            <div data-consent-src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5172.337584292412!2d17.202484948774703!3d48.14977622766582!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c8f53f3688597%3A0x805c057ae22acee!2sEUROPEA%20group%20s.r.o.!5e0!3m2!1ssk!2ssk!4v1787687795031!5m2!1ssk!2ssk"
+                 data-consent-title="Map – Europea, Šípova 3/A, Bratislava"></div>
           </div>
         </div>
       </div>
@@ -482,6 +478,12 @@
       <div class="footer-bottom">
         <span>&copy; 2026 Europea. All rights reserved.</span>
         <a href="https://www.europeashop.sk/" target="_blank" rel="noopener">E-shop – europeashop.sk</a>
+      
+        <nav class="footer-legal" aria-label="Cookie settings">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="cookie-policy.html">Cookie Policy</a>
+          <a href="#" data-consent-settings>Cookie settings</a>
+        </nav>
       </div>
     </div>
   </footer>
@@ -492,5 +494,6 @@
   </button>
 
   <script src="../js/main.js"></script>
+  <script src="../js/consent.js"></script>
 </body>
 </html>

@@ -74,4 +74,36 @@
     <priority>0.7</priority>
   </url>
 
+  <url>
+    <loc>https://europea.sk/ochrana-sukromia/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://europea.sk/ochrana-sukromia/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://europea.sk/en/privacy-policy.html" />
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://europea.sk/en/privacy-policy.html</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://europea.sk/ochrana-sukromia/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://europea.sk/en/privacy-policy.html" />
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://europea.sk/zasady-cookie/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://europea.sk/zasady-cookie/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://europea.sk/en/cookie-policy.html" />
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://europea.sk/en/cookie-policy.html</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://europea.sk/zasady-cookie/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://europea.sk/en/cookie-policy.html" />
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
 </urlset>
